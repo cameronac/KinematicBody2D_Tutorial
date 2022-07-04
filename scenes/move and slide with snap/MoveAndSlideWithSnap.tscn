@@ -38,6 +38,7 @@ points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
 [node name="Player" type="KinematicBody2D" parent="."]
 position = Vector2( 448, 288 )
 script = ExtResource( 3 )
+jump_spd = 400
 
 [node name="Sprite" type="Sprite" parent="Player"]
 texture = ExtResource( 1 )
